@@ -1,0 +1,247 @@
+<resources>
+    <string name="app_name">ModuloCitas</string>
+
+    <string name="citas_iniciar_actividad">INICIAR ACTIVIDAD</string>
+    <string name="prospectos_id_vendedor_asignado">idVendedorAsignado</string>
+    <string name="btn_cancelar">CANCELAR</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="citas_prospectos_cargar_fail">No se lograron obtener las citas. Se muestran aquellas almacenadas en el dispositivo</string>
+    <string name="archivos_cargar_fail">No se lograron obtener los archivos. Se muestran aquellos almacenados en el dispositivo</string>
+    <string name="citas_prospecto_finalizado">Prospecto finalizado</string>
+    <string name="citas_prospecto_fail">No es posible agendar la cita. Favor de intentar más tarde</string>
+    <string name="plan_prospecto_finalizado">Prospecto finalizado</string>
+    <string name="plan_prospecto_descartado">Prospecto descartado</string>
+    <string name="prospectos_total_citas_visitas">Total de citas: </string>
+    <string name="envio_descartar_offline">El prospecto se descartará cuando tengas conexión a internet</string>
+
+    <!-- STRINGS DE NOMBRES DE LAS DISTINTAS ACTIVIDADES -->
+    <string name="actividades_contactar_nuevo_prospecto">Contactar Nuevo Prospecto</string>
+    <string name="actividades_contactar_cliente">Contactar Cliente</string>
+    <string name="actividades_visitar_prospecto">Visitar Prospecto</string>
+    <string name="actividades_recabar_informacion">Recabar Información</string>
+    <string name="actividades_calificar_oportunidad">Calificar Oportunidad</string>
+    <string name="actividades_propuesta_valor">Preparar Presentación de Propuesta de Valor</string>
+    <string name="actividades_descartar_oportunidad">Descartar oportunidad</string>
+    <string name="actividades_presentar_propuesta">Presentar Propuesta</string>
+    <string name="actividades_recibir_propuesta">Recibir Propuesta</string>
+    <string name="actividades_negociar_propuesta">Negociar/Ajustar Propuesta</string>
+
+
+    <string name="citas_llamar">LLAMAR</string>
+    <string name="citas_mapa">MAPA</string>
+    <string name="citas_contactos">CONTACTOS</string>
+    <string name="citas_ubicacion">Ubicación</string>
+    <string name="citas_direccion">Paseo de los Tamarindos No. 90 Torre 1 Piso 32,\nBosques de las Lomas,\nCuajimalpa de Morelos, 05120\nCiudad de Mexico, D.F.</string>
+    <string name="citas_agendar_cita">Agendar nueva cita/visita</string>
+    <string name="citas_archivos">Archivos</string>
+    <string name="citas_cerrar">CERRAR</string>
+    <string name="citas_si">Sí</string>
+    <string name="citas_no">No</string>
+    <string name="citas_aceptada">Aceptada</string>
+    <string name="citas_declinada">Declinada</string>
+    <string name="citas_comentarios">Comentarios</string>
+    <string name="citas_breve">Sea breve...</string>
+    <string name="citas_oferta_integral">Oferta Integral</string>
+    <string name="citas_seleccionar_productos">Seleccionar Productos</string>
+    <string name="citas_seleccionar_servicios">Seleccionar Servicios</string>
+    <string name="citas_seleccionar_productos_servicios">Seleccionar Productos y Servicios</string>
+    <string name="citas_informacion_obra">Información de obra</string>
+    <string name="citas_obligatorio">*</string>
+    <string name="citas_dialog_cancelar">CANCELAR</string>
+    <string name="citas_dialog_confirmar">CONFIRMAR</string>
+    <string name="citas_dialog_ok">OK</string>
+    <string name="citas_button_descartar">Descartar</string>
+    <string name="citas_motivos_exclusion">Motivos de exclusión</string>
+    <string name="citas_estatus_obra">Estatus de Obra</string>
+    <string name="formulario_spinners_default">-- Selecciona --</string>
+
+    <string name="citas_cargar_fail">Hubo un problema al momento de obtener las Citas. Favor de intentar nuevamente.</string>
+
+    <!-- STRINGS PARA CAMPOS VACÍOS -->
+    <string name="citas_comentarios_empty">Favor de llenar el campo Comentarios</string>
+    <string name="citas_motivos_no_califica_empty">Favor de llenar el campo Motivos porque no califica</string>
+    <string name="citas_confirmar_inicio_obra_empty">Favor de llenar el campo Confirmar inicio de obra</string>
+    <string name="citas_confirmar_volumen_obra_empty">Favor de llenar el campo Confirmar volumen de obra</string>
+    <string name="citas_motivos_exclusion_empty">Favor de seleccionar motivo de exlusión</string>
+    <string name="citas_folio">Favor de llenar el No. de obra</string>
+    <string name="citas_folio_incorrecto">Favor de ingresar un No. entre 65000000 y 70000000 </string>
+
+    <string name="citas_holding">Favor de llenar el No. de holding</string>
+    <string name="citas_holding_incorrecto">Favor de ingresar un No. entre 50000000 y 59000000 </string>
+
+    <string name="productos_fecha_inicio_obra_empty">Favor de llenar el campo Fecha de Inicio de Obra</string>
+    <string name="productos_duracion_meses_empty">Favor de llenar el campo Duración (meses)</string>
+    <string name="productos_meses_restantes_empty">Favor de llenar el campo Meses restantes</string>
+    <string name="productos_volumen_total_empty">Favor de llenar el campo Volumen total</string>
+    <string name="productos_volumen_restante_empty">Favor de llenar el campo Volumen restante</string>
+    <string name="productos_volumen_proximos_meses_empty">Favor de llenar el campo Volumen para los próximos 6 meses</string>
+    <string name="productos_numero_obra_empty">Favor de llenar el campo Número de obra</string>
+    <string name="productos_razon_perdida_descartada_empty">Favor de llenar el campo ¿Por qué fue Perdida / Descartada?</string>
+    <string name="productos_semaforo_empty">Favor de seleccionar Semáforo</string>
+    <string name="productos_obra_empty">Favor de seleccionar Obra</string>
+    <string name="productos_motivos_exclusion_empty">Favor de seleccionar Motivo de exclusión</string>
+    <string name="productos_estatus_obra_empty">Favor de seleccionar Estatus de obra</string>
+    <string name="productos_competidor_empty">Favor de seleciconar Competidor</string>
+    <string name="productos_oportunidad_venta_empty">Favor de seleccionar Oportunidad de Venta</string>
+    <string name="productos_volumen_incorrecto">El volumen restante no puede ser mayor que el volumen total</string>
+    <!--VISITAR/CONTACTAR PROSPECTO 1-->
+    <string name="citas1_title_contactar">Contactar Nuevo Prospecto</string>
+    <string name="citas1_title_contactar_cliente">Contactar Cliente</string>
+    <string name="citas1_title_visitar">Visitar Prospecto</string>
+    <string name="citas1_pregunta_inicial">¿Contactaste al Prospecto?</string>
+    <string name="citas1_agendar_nueva_cita_visita">AGENDAR NUEVA CITA/VISITA</string>
+    <string name="citas1_siguiente">Siguiente</string>
+    <string name="citas1_recabar_info">Recabar Información</string>
+    <string name="citas1_agendar">AGENDAR ACTIVIDAD</string>
+    <string name="citas1_realizar_actividad">REALIZAR ACTIVIDAD</string>
+
+    <!-- VISITAR_PROSPECTO_2 -->
+    <string name="citas2_title">Visitar Prospecto</string>
+    <string name="citas2_pregunta_inicial">Agendar nueva cita/visita</string>
+    <string name="citas2_reagendar">AGENDAR NUEVA CITA / LLAMADA</string>
+    <string name="citas2_siguiente">Siguiente</string>
+    <string name="citas2_recabar_info">Recabar Información</string>
+    <string name="citas2_agendar">AGENDAR ACTIVIDAD</string>
+    <string name="citas2_realizar_actividad">REALIZAR ACTIVIDAD</string>
+
+    <!--RECABAR INFORMACIÓN 3-->
+    <string name="citas3_title">Recabar información</string>
+    <string name="citas3_pregunta_inicial">Reagendar actividad</string>
+    <string name="citas3_otra_reunion">¿Requiere otra reunión?</string>
+    <string name="citas3_oportunidad_dolor_detectada">OPORTUNIDAD DOLOR DETECTADA</string>
+    <string name="citas3_siguiente">Siguiente</string>
+    <string name="citas3_calificar_oportunidad_venta">Calificar Oportunidad de Venta</string>
+    <string name="citas3_agendar">AGENDAR ACTIVIDAD</string>
+    <string name="citas3_realizar_actividad">REALIZAR ACTIVIDAD</string>
+    <string name="citas3_agendar_nueva_cita_visita">AGENDAR NUEVA CITA/VISITA</string>
+
+    <!-- CALIFICAR OPORTUNIDAD 4 -->
+    <string name="citas4_title">Calificar Oportunidad</string>
+    <string name="citas4_pregunta_inicial">Reagendar actividad</string>
+    <string name="citas4_reagendar_actividad">REAGENDAR ACTIVIDAD</string>
+    <string name="citas4_oportunidad_califica">La oportunidad de venta califica</string>
+    <string name="citas4_motivo_no_califica">Motivos porque no califica</string>
+    <string name="citas4_preparar_propuesta_valor">Preparar Propuesta de Valor</string>
+    <string name="citas4_descartar_oportunidad">DESCARTAR OPORTUNIDAD DE VENTA</string>
+
+    <!--PREPARAR PROPUESTA DE VALOR 5-->
+    <string name="citas5_title">Preparar Propuesta de Valor</string>
+    <string name="citas5_pregunta_inicial">Reagendar actividad</string>
+    <string name="citas5_siguiente">Siguiente</string>
+    <string name="citas5_presentar_propuesta">Presentar Propuesta</string>
+    <string name="citas5_realizar_actividad">REALIZAR ACTIVIDAD</string>
+    <string name="citas5_agendar_nueva_cita_visita">AGENDAR NUEVA CITA/VISITA</string>
+    <string name="citas5_reagendar_actividad">REAGENDAR ACTIVIDAD</string>
+
+
+    <!-- PRESENTAR PROPUESTA 6 -->
+    <string name="citas6_title">Presentar Propuesta</string>
+    <string name="citas6_pregunta_inicial">Reagendar actividad</string>
+    <string name="citas6_reagendar_actividad">REAGENDAR ACTIVIDAD</string>
+    <string name="citas6_cita_numero">Cita Número</string>
+    <string name="citas6_cita_numero_hint">2</string>
+    <string name="citas6_confirmar_inicio_obra">Confirmar inicio de obra</string>
+    <string name="citas6_confirmar_inicio_obra_hint">12 / 12 / 2016</string>
+    <string name="citas6_confirmar_volumen_obra">Confirmar volumen de obra</string>
+    <string name="citas6_confirmar_volumen_obra_hint">Volumen de concreto</string>
+    <string name="citas6_ver_propuesta">VER PROPUESTA</string>
+    <string name="citas6_siguiente_actividad">Siguiente</string>
+    <string name="citas6_recibir_respuesta">Recibir Respuesta</string>
+    <string name="citas6_agendar_actividad">AGENDAR ACTIVIDAD</string>
+    <string name="citas6_realizar_actividad">REALIZAR ACTIVIDAD</string>
+
+    <!--RECIBIR RESPUESTA-->
+    <string name="citas7_title">Recibir Respuesta</string>
+    <string name="citas7_pregunta_inicial">¿Respuesta de Cliente?</string>
+    <string name="citas7_ver_propuesta">VER PROPUESTA</string>
+    <string name="citas7_reagendar">REAGENDAR ACTIVIDAD</string>
+    <string name="citas7_siguiente">Siguiente</string>
+    <string name="citas7_negociar">Negociar/Ajustar Propuesta</string>
+    <string name="citas7_agendar_actividad">AGENDAR ACTIVIDAD</string>
+    <string name="citas7_realizar_actividad">REALIZAR ACTIVIDAD</string>
+
+    <!-- PRESENTAR PROPUESTA 8 -->
+    <string name="citas8_title">Negociar / Ajustar Propuesta</string>
+    <string name="citas8_pregunta_inicial">¿Respuesta de Cliente?</string>
+    <string name="citas8_ver_propuesta">VER PROPUESTA</string>
+    <string name="citas8_reagendar_actividad">REAGENDAR ACTIVIDAD</string>
+    <string name="citas8_cerrar_venta">CERRAR VENTA</string>
+
+    <!-- STRINGS PARA PRODUCTOS -->
+    <string name="productos_fecha_inicio_obra">Fecha de Inicio de Obra</string>
+    <string name="productos_fecha_inicio_obra_hint">12 / 12 / 2016</string>
+    <string name="productos_duracion_meses">Duración (meses)</string>
+    <string name="productos_duracion_meses_hint">Duración (meses)</string>
+    <string name="productos_meses_restantes">Meses restantes</string>
+    <string name="productos_meses_restantes_hint">Meses restantes</string>
+    <string name="productos_volumen_total">Volumen total</string>
+    <string name="productos_volumen_total_hint">Volumen total</string>
+    <string name="productos_volumen_restante">Volumen restante</string>
+    <string name="productos_volumen_restante_hint">Volumen restante</string>
+    <string name="obra_alta_success">La información de la obra se actualizó correctamente</string>
+    <string name="obra_alta_fail">La información de la obra no se ha podido actualizar. Favor de intentar más tarde</string>
+    <string name="obra_alta_offline">La información de la obra se actualizará cuando tengas conexión a internet</string>
+
+    <string name="productos_semaforo">Semáforo</string>
+    <string name="productos_obra">Obra</string>
+    <string name="productos_motivo_exclusion">Motivo de exclusión</string>
+    <string name="productos_estatus_obra">Estatus de obra</string>
+
+    <string name="productos_volumen_proximos_meses">Volumen para los próximos 6 meses</string>
+    <string name="productos_volumen_proximos_meses_hint">Volumen para los próximos 6 meses</string>
+
+    <string name="productos_competidor">Competidor</string>
+    <string name="productos_oportunidad_venta">Oportunidad de venta</string>
+
+    <string name="productos_numero_obra">Número de obra</string>
+    <string name="productos_numero_obra_hint">1506</string>
+    <string name="productos_razon_perdida_descartada">¿Por qué fue Perdida / Descartada?</string>
+    <string name="productos_razon_perdida_descartada_hint">¿Por qué fue Perdida / Descartada?</string>
+
+    <!-- Pantalla de Descargas -->
+    <string name="prospectos_descargar_seleccionar">Seleccionar Archivos</string>
+    <string name="prospectos_descargar_todo">Descargar Todo</string>
+    <string name="prospectos_aceptar">ACEPTAR</string>
+
+    <!-- Pantalla Agregar Expediente -->
+    <string name="prospectos_agregar_archivo">AGREGAR ARCHIVO</string>
+    <string name="prospectos_agregar_foto">TOMAR FOTO</string>
+    <string name="prospectos_seleccionar_archivo">Selecciona un Archivo</string>
+    <string name="uploader_ruta_del_archivo_vacia">La ruta del archivo no es valida. No usar \'Drive\' para abrir archivos. Intentar nuevamente.</string>
+    <string name="uploader_tamano_del_archivo_no_permitido_1">El tamaño del archivo es de</string>
+    <string name="uploader_tamano_del_archivo_no_permitido2">el maximo permitido es de</string>
+    <string name="uploader_url_del_archivo_corrupta">No se logró tratar el archivo. Agregar los Archivos con \'Choose a File\'</string>
+    <string name="uploader_archivo_existente_1">El archivo</string>
+    <string name="uploader_archivo_existente_2">previamente se agregó en la lista.</string>
+    <string name="uploader_url_del_archivo_null">No se logró encontrar la ruta del archivo.</string>
+    <string name="uploader_archivo_no_permitido_1">La extensión del archivo</string>
+    <string name="uploader_archivo_no_permitido_2">no esta permitida.</string>
+    <string name="uploader_fail">Hubo un problema al momento de subir los archivos. Favor de intentar más tarde</string>
+    <string name="uploader_success">Los archivos se han añadido exitosamente</string>
+    <string name="uploader_empty">Favor de agregar al menos una foto o archivo</string>
+    <string name="downloader_empty">Seleccione al menos un archivo de la lista</string>
+    <string name="uploader_citas_ok">imagenesSubidas</string>
+
+    <string name="mensaje_descartar_prospecto">El prospecto será descartado</string>
+    <string name="motivos_spinner_vacio">Selecciona estatus de obra</string>
+    <string name="descarte_fail">No se logró descartar el prospecto</string>
+    <string name="descatar_ok">Prospecto descartado</string>
+    <string name="oportunidad_venta_fail">No se logró obtener la oportunidad de venta</string>
+
+    <string name="sincronizar_citas_title">Sincronizando Citas</string>
+    <string name="sincronizar_citas_message">Espere un momento por favor...</string>
+    <string name="sincronizar_citas_fail">Ha ocurrido un error al momento de sincronizar citas. Favor de intentar más tarde</string>
+
+
+    <!-- PANTALLA DE TIMEPICKER -->
+    <string name="plan_time_picker_title_inicio">(hora inicio)</string>
+    <string name="plan_time_picker_title_fin">(hora fin)</string>
+    <string name="plan_time_picker_success">La cita se ha dado de alta exitosamente</string>
+    <string name="plan_time_picker_fail">Ha ocurrido un error al momento de dar de alta la cita. Favor de intentar nuevamente</string>
+    <string name="plan_time_picker_traslape_title">Conflicto con evento existente</string>
+    <string name="plan_time_picker_traslape_message">Lo sentimos. Ya existe un evento programado en este horario</string>
+    <string name="plan_time_picker_aceptar">Aceptar</string>
+    <string name="plan_time_picker_fail_cerrar">Ha ocurrido un error al momento de Cerrar la venta. Favor de intentar nuevamente</string>
+    <string name="plan_time_picker_fail_descartar">Ha ocurrido un error al momento de Descartar la venta. Favor de intentar nuevamente</string>
+
+</resources>

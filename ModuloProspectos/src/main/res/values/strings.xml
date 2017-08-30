@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Prospectos</string>
+
+    <string name="prospectos_cargar_fail">No se lograron obtener los prospectos. Se muestran aquellos almacenados en el dispositivo</string>
+    <string name="contactos_cargar_fail">No se lograron obtener los contactos. Se muestran aquellos almacenados en el dispositivo</string>
+    <string name="archivos_cargar_fail">No se lograron obtener los archivos. Se muestran aquellos almacenados en el dispositivo</string>
+    <string name="prospectos_id_vendedor_asignado">idVendedorAsignado</string>
+    <!-- PROSPECTOS FOLDER -->
+    <string name="prospectos_title">Prospectos</string>
+    <string name="prospectos_total_prospectos">Total de prospectos:</string>
+    <string name="prospectos_llamar">LLAMAR</string>
+    <string name="prospectos_mapa">MAPA</string>
+    <string name="prospectos_contactos">CONTACTOS</string>
+    <string name="prospectos_ubicacion">Ubicación</string>
+    <string name="prospectos_direccion">Paseo de los Tamarindos No. 90 Torre 1 Piso 32,\nBosques de las Lomas,\nCuajimalpa de Morelos, 05120\nCiudad de Mexico, D.F.</string>
+    <string name="prospectos_agendar_cita">Agendar nueva cita/visita</string>
+    <string name="prospectos_archivos">Archivos</string>
+    <string name="prospectos_informacion_obra">Información Obra</string>
+    <string name="prospectos_cerrar">CERRAR</string>
+    <string name="prospectos_aceptar">ACEPTAR</string>
+    <string name="prospectos_prospecto_finalizado">Prospecto finalizado</string>
+    <string name="citas_prospecto_fail">No es posible agendar la cita. Favor de intentar más tarde</string>
+    <string name="plan_error_busqueda">La búsqueda no ha arrojado resultados. Favor de intentar nuevamente</string>
+    <string name="plan_prospecto_finalizado">Prospecto finalizado</string>
+    <string name="plan_prospecto_descartado">Prospecto descartado</string>
+    <string name="prospecto_alta_offline">El prospecto se enviará cuando tengas conexión a internet</string>
+    <string name="prospecto_archivo_offline">Los archivos se enviarán cuando tengas conexión a internet</string>
+    
+    <!-- MODAL PROSPECTOS -->
+    <string name="prospectos_modal_general">PROSPECTOS EN</string>
+    <string name="prospectos_modal_prospeccion">PROSPECCIÓN</string>
+    <string name="prospectos_modal_indagar_oportunidad">INDAGAR OPORTUNIDAD</string>
+    <string name="prospectos_modal_calificar">CALIFICAR</string>
+    <string name="prospectos_modal_presentar_propuesta">PRESENTAR PROPUESTA</string>
+    <string name="prospectos_modal_cerrar_venta">CERRAR VENTA</string>
+
+    <!-- TOOLBAR PROSPECTOS -->
+    <string name="prospectos_menu_buscar">Buscar Prospecto</string>
+    <string name="prospectos_menu_status">Estatus Prospecto</string>
+    <string name="prospectos_menu_nuevo">Nuevo Prospecto</string>
+
+    <!--ALTA DE PROSPECTOS-->
+    <string name="alta_lista_total">Total de contactos:</string>
+    <string name="alta_lista_vacia">Crear Nuevo Contacto</string>
+
+    <string name="titulo_alta_prospecto">Alta de Prospecto</string>
+    <string name="btn_cancelar">CANCELAR</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_siguiente">SIGUIENTE</string>
+    <string name="btn_confirmar">CONFIRMAR</string>
+    <string name="tab_informacion_general">GENERAL</string>
+    <string name="tab_datos_contacto">DATOS DE CONTACTO</string>
+    <string name="tab_contactos">CONTACTOS</string>
+    <string name="tab_productos">PRODUCTOS</string>
+    <string name="tab_servicios">SERVICIOS</string>
+
+    <string-array name="sp_busqueda_prospecto">
+        <item>-- Selecciona --</item>
+        <item>Tipo de Prospecto</item>
+        <item>Actividad</item>
+        <item>Nombre</item>
+        <item>Ver Todos</item>
+    </string-array>
+
+    <string name="alert_no_hay_productos">No hay Productos</string>
+    <string name="alert_no_hay_servicios">No hay Servicios</string>
+    <string name="alert_continuar_sin_productos">¿Deseas continuar sin seleccionar Productos?</string>
+    <string name="alert_continuar_sin_servicios">¿Deseas continuar sin seleccionar Servicios?</string>
+    <string name="alert_no_hay_contactos">El prospecto se guardará sin contactos</string>
+    <string name="alert_seleccionar_productos_servicios">¿Deseas seleccionar Productos y/o Servicios?</string>
+
+
+    <string name="formulario_obligatorio"> *</string>
+    <string name="formulario_cliente">Cliente</string>
+    <string name="formulario_obra">Obra</string>
+    <string name="formulario_estatus_obra">Estatus de Obra</string>
+    <string name="formulario_numero_registro">Número de Registro</string>
+    <string name="formulario_subsegmento">Subsegmento</string>
+    <string name="formulario_tipo_prospecto">Tipo de Prospecto</string>
+    <string name="formulario_oferta_integral">Oferta Integral</string>
+    <string name="formulario_campana">Campaña</string>
+    <string name="citas_seleccionar_productos_servicios">Seleccionar Productos y Servicios</string>
+    <string name="formulario_comentarios">Comentarios</string>
+    <string name="formulario_razon_social">Razón Social</string>
+    <string name="formulario_rfc">R. F. C.</string>
+    <string name="formulario_telefono">Teléfono</string>
+    <string name="formulario_pagina_web">Sitio Web</string>
+    <string name="formulario_calle">Calle</string>
+    <string name="formulario_numero">Número</string>
+    <string name="formulario_numero_interior">Número Interior</string>
+    <string name="formulario_colonia">Colonia</string>
+    <string name="formulario_codigo_postal">Código Postal</string>
+    <string name="formulario_municipio">Municipio</string>
+    <string name="formulario_estado">Estado</string>
+    <string name="formulario_obtener_coordenadas">Obtener coordenadas para ver mapa</string>
+    <string name="formulario_tomar_fotografia">Tomar foto de prospecto</string>
+    <string name="formulario_hint_comentario">Sea breve&#8230;</string>
+    <string name="formulario_hint_rfc">Registro Federal de Contribuyentes</string>
+    <string name="formulario_hint_telefono">99999999</string>
+    <string name="formulario_hint_pagina_web">www.SitioWeb.com</string>
+    <string name="formulario_hint_numero">99999</string>
+    <string name="formulario_hint_codigo_postal">99999</string>
+    <string name="formulario_titulo_contactos">Crear Nuevo Contacto</string>
+    <string name="formulario_nombre">Nombre(s)</string>
+    <string name="formulario_apellido_paterno">Apellido Paterno</string>
+    <string name="formulario_apellido_materno">Apellido Materno</string>
+    <string name="formulario_extension">Ext.</string>
+    <string name="formulario_email">E-mail</string>
+    <string name="formulario_email_contacto">contacto@correo.com</string>
+    <string name="formulario_cargo">Cargo</string>
+    <string name="formulario_contacto_principal">Contacto Principal</string>
+    <string name="formulario_si">Sí</string>
+    <string name="formulario_no">No</string>
+    <string name="formulario_spinners_default">-- Selecciona --</string>
+    <string name="formulario_spinners_nuevo_cliente">Nuevo Cliente</string>
+    <string name="formulario_spinners_nueva_obra">Nueva Obra</string>
+    <string name="formulario_envio_exitoso">El prospecto se ha dado de alta exitosamente</string>
+    <string name="formulario_envio_fail">Ha ocurrido un error al momento de dar de alta al prospecto. Favor de intentar nuevamente</string>
+
+    <string name="sin_productos_servicios_up_cross">No hay Productos/Servicios disponibles</string>
+    <string name="sin_productos_cross">No hay productos disponibles para Cross Selling</string>
+    <string name="sin_servicios_cross">No hay servicios disponibles para Cross Selling</string>
+
+
+    <string name="filtro_tipo_prospecto">Tipo de Prospecto</string>
+    <string name="filtro_actividad">Actividad</string>
+    <string name="filtro_nombre">Nombre</string>
+    <string name="filtro_numero_registro">Número de Registro</string>
+    <string name="filtro_ver_todos">Ver Todos</string>
+
+    <string name="formulario_fail_cliente">Favor de escribir nombre del Cliente</string>
+    <string name="formulario_fail_obra">Favor de escribir nombre de la Obra</string>
+    <string name="formulario_fail_estatus_obra">Favor de seleccionar un Estatus de la Obra</string>
+    <string name="formulario_fail_subsegmento">Favor de seleccionar un Subsegmento</string>
+    <string name="formulario_fail_tipo_prospecto">Favor de seleccionar un Tipo de Prospecto</string>
+    <string name="formulario_fail_campana">Favor de seleccionar la Campaña</string>
+    <string name="formulario_fail_comentarios">Favor de escribir Comentarios</string>
+    <string name="formulario_fail_estados">Favor de seleccionar Estado</string>
+    <string name="formulario_fail_municipio">Favor de seleccionar Municipio</string>
+    <string name="formulario_fail_oferta_integral">Favor de seleccionar Oferta Integral</string>
+    <string name="formulario_fail_rfc">El RFC introducido no es válido. Favor de verificarlo</string>
+    <string name="formulario_fail_sitio_web">El Sitio Web introducido no es válido. Favor de verificarlo</string>
+    <string name="formulario_fail_codigo_postal">El Codigo Postal no es válido. Favor de verificarlo.</string>
+
+    <!-- ALTA DE CONTACTOS -->
+    <string name="formulario_fail_contactos_nombre">Favor de escribir el Nombre del Contacto</string>
+    <string name="formulario_fail_contactos_apellido_paterno">Favor de escribir el Apellido Paterno del Contacto</string>
+    <string name="formulario_fail_contactos_apellido_materno">Favor de escribir el Apellido Materno del Contacto</string>
+    <string name="formulario_fail_contactos_telefono">Favor de escribir el Teléfono del Contacto</string>
+    <string name="formulario_fail_contactos_telefono_logitud">El Teléfono del contacto debe tener 10 digitos</string>
+    <string name="formulario_fail_contactos_extension">Favor de escribir la Extensión del Contacto</string>
+    <string name="formulario_fail_contactos_email">Favor de escribir un Email válido</string>
+    <string name="formulario_fail_contactos_cargo">Favor de seleccionar el Cargo del Contacto</string>
+    <string name="formulario_fail_contactos_comentarios">Favor de escribir Comentarios del Contacto</string>
+    <string name="formulario_fail_contactos_principal">Favor de seleccionar si el Contacto es Principal o no</string>
+    <string name="contactos_alta_success">Los contactos se han añadido exitosamente.</string>
+    <string name="contactos_alta_fail">Ha ocurrido un error al momento de guardar los contactos. Favor de intentar nuevamente</string>
+    <string name="contacto_alta_offline">Los contactos se enviarán cuando tengas conexión a internet</string>
+
+    <!-- FRAGMENTO CONTACTOS -->
+    <string name="contactos_titulo">Contactos</string>
+    <string name="contactos_alta_maximo">Sólo se permite agregar un máximo de 5 contactos</string>
+
+    <string-array name="formulario_spinner">
+        <item>-- Selecciona --</item>
+    </string-array>
+
+    <!-- Pantalla de Descargas -->
+    <string name="prospectos_descargar_seleccionar">Seleccionar Archivos</string>
+    <string name="prospectos_descargar_todo">Descargar Todo</string>
+
+    <!-- Pantalla Agregar Expediente -->
+    <string name="prospectos_agregar_archivo">AGREGAR ARCHIVO</string>
+    <string name="prospectos_agregar_foto">TOMAR FOTO</string>
+    <string name="prospectos_seleccionar_archivo">Selecciona un Archivo</string>
+    <string name="uploader_ruta_del_archivo_vacia">La ruta del archivo no es valida. No usar \'Drive\' para abrir archivos. Intentar nuevamente.</string>
+    <string name="uploader_tamano_del_archivo_no_permitido_1">El tamaño del archivo es de</string>
+    <string name="uploader_tamano_del_archivo_no_permitido2">el maximo permitido es de</string>
+    <string name="uploader_url_del_archivo_corrupta">No se logró tratar el archivo. Agregar los Archivos con \'Choose a File\'</string>
+    <string name="uploader_archivo_existente_1">El archivo</string>
+    <string name="uploader_archivo_existente_2">previamente se agregó en la lista.</string>
+    <string name="uploader_url_del_archivo_null">No se logró encontrar la ruta del archivo.</string>
+    <string name="uploader_archivo_no_permitido_1">La extensión del archivo</string>
+    <string name="uploader_archivo_no_permitido_2">no esta permitida.</string>
+    <string name="uploader_fail">Hubo un problema al momento de subir los archivos. Favor de intentar más tarde</string>
+    <string name="uploader_success">Los archivos se han añadido exitosamente</string>
+    <string name="uploader_empty">Favor de agregar al menos una foto o archivo</string>
+    <string name="downloader_empty">Seleccione al menos un archivo de la lista</string>
+    <string name="uploader_ok">imagenesSubidas</string>
+    <string name="citas_dialog_cancelar">CANCELAR</string>
+    <string name="citas_dialog_confirmar">CONFIRMAR</string>
+
+    <!-- STRINGS DE NOMBRES DE LAS DISTINTAS ACTIVIDADES -->
+    <string name="actividades_contactar_nuevo_prospecto">Contactar Nuevo Prospecto</string>
+    <string name="actividades_contactar_cliente">Contactar Cliente</string>
+    <string name="actividades_visitar_prospecto">Visitar Prospecto</string>
+    <string name="actividades_recabar_informacion">Recabar Información</string>
+    <string name="actividades_calificar_oportunidad">Calificar Oportunidad</string>
+    <string name="actividades_propuesta_valor">Preparar Presentación de Propuesta de Valor</string>
+    <string name="actividades_descartar_oportunidad">Descartar oportunidad</string>
+    <string name="actividades_presentar_propuesta">Presentar Propuesta</string>
+    <string name="actividades_recibir_propuesta">Recibir Propuesta</string>
+    <string name="actividades_recibir_respuesta">Recibir Respuesta</string>
+    <string name="actividades_recibir_respuesta_propuesta">Respuesta a Propuesta</string>
+    <string name="actividades_negociar_propuesta">Negociar/Ajustar Propuesta</string>
+    <string name="actividades_cerrar_venta">Cerrar Venta</string>
+
+</resources>

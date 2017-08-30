@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorBlanco"
+        android:theme="@style/ToolBarStyle"
+        app:layout_scrollFlags="scroll|enterAlways|snap"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlanco">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <TextView
+                    style="@style/TextViewFormulario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:text="@string/citas4_pregunta_inicial" />
+
+                <RadioGroup
+                    android:id="@+id/radioOfertaIntegral"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radioSi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:checked="true"
+                        android:paddingLeft="10dp"
+                        android:text="@string/citas_si" />
+
+                    <RadioButton
+                        android:id="@+id/radioNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="18dp"
+                        android:layout_marginTop="18dp"
+                        android:paddingLeft="10dp"
+                        android:text="@string/citas_no" />
+                </RadioGroup>
+
+                <!--OFERTA INTEGRAL-->
+
+                <LinearLayout
+                    android:id="@+id/layout_checkbox_oferta_integral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingRight="16dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="50dp"
+                        android:background="@color/colorGrisBorde" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/chbx_oferta_integral"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="6dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/citas_oferta_integral"
+                            android:textColor="@color/colorAzulElectrico" />
+
+                        <ImageView
+                            android:id="@+id/img_oferta_integral"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:foregroundGravity="center_vertical"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/btn_options" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_oferta_integral"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="16dp"
+                    android:paddingRight="16dp" >
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorGrisBorde"
+                        android:layout_marginLeft="50dp" />
+
+                    <LinearLayout
+                        android:id="@+id/btn_seleccionar_productos_servicios"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:orientation="horizontal"
+                        android:paddingLeft="50dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="8"
+                            android:text="@string/citas_seleccionar_productos_servicios"
+                            android:textColor="@color/colorAzul" />
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:foregroundGravity="center_vertical"
+                            android:scaleType="fitEnd"
+                            android:src="@drawable/btn_options" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@color/colorGrisBorde" />
+
+                </LinearLayout>
+
+                <!--SI-->
+                <LinearLayout
+                    android:id="@+id/layout_si"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="16dp"
+                        android:paddingLeft="50dp"
+                        android:paddingRight="16dp">
+
+                        <TextView
+                            style="@style/TextViewFormulario"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/citas_comentarios" />
+
+                        <!--<TextView-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="@string/citas_obligatorio"-->
+                            <!--android:textColor="@color/colorRojo" />-->
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etx_comentarios_reagendar_actividad"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/citas_breve"
+                        android:singleLine="true" />
+
+                    <Button
+                        android:id="@+id/btn_citas4_reagendar_actividad"
+                        style="@style/BotonAzulFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="@string/citas4_reagendar_actividad" />
+                </LinearLayout>
+
+                <!--NO-->
+                <LinearLayout
+                    android:id="@+id/layout_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50dp"
+                        android:text="@string/citas4_oportunidad_califica"
+                        android:textColor="@color/colorAzul" />
+
+                    <RadioGroup
+                        android:id="@+id/radioOportunidadVenta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="10dp">
+
+                        <RadioButton
+                            android:id="@+id/radioSiOportunidad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:checked="true"
+                            android:paddingLeft="10dp"
+                            android:text="@string/citas_si" />
+
+                        <RadioButton
+                            android:id="@+id/radioNoOportunidad"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="18dp"
+                            android:paddingLeft="10dp"
+                            android:text="@string/citas_no" />
+                    </RadioGroup>
+
+
+                </LinearLayout>
+
+                <!--NO CALIFICA-->
+                <LinearLayout
+                    android:id="@+id/layout_no_califica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:orientation="horizontal"
+                        android:paddingLeft="50dp">
+
+                        <TextView
+                            style="@style/TextViewFormulario"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/citas4_motivo_no_califica" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/citas_obligatorio"
+                            android:textColor="@color/colorRojo" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etx_comentarios_no_califica"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/citas_breve"
+                        android:singleLine="true" />
+
+                    <Button
+                        android:id="@+id/btn_citas4_descartar_oportunidad"
+                        style="@style/BotonAzulFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="16dp"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="@string/citas4_descartar_oportunidad" />
+                </LinearLayout>
+
+                <!--SI CALIFICA-->
+                <LinearLayout
+                    android:id="@+id/layout_si_califica"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingTop="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingLeft="50dp"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@color/colorGrisBorde" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            style="@style/TextViewFormulario"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/citas_comentarios" />
+
+                        <!--<TextView-->
+                            <!--android:textColor="@color/colorRojo"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="@string/citas_obligatorio" />-->
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/etx_comentarios_si_califica"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/citas_breve"
+                        android:singleLine="true" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@color/colorGrisBorde" />
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/citas3_siguiente"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/citas4_preparar_propuesta_valor"
+                        android:layout_marginTop="25dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginBottom="16dp">
+
+                        <Button
+                            android:id="@+id/btnAgendarActividad"
+                            style="@style/BotonAzulFormulario"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="10dp"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/citas3_agendar"/>
+
+                        <Button
+                            android:id="@+id/btnRealizarActividad"
+                            style="@style/BotonAzulFormulario"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_horizontal"
+                            android:text="@string/citas3_realizar_actividad" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="@color/colorGrisBorde" />
+
+                <!-- DESCARTAR -->
+
+                <CheckBox
+                    android:id="@+id/chbx_descartar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:paddingLeft="10dp"
+                    android:text="@string/citas_button_descartar"
+                    android:textColor="@color/colorAzulElectrico" />
+
+                <!--DESCARTAR OPORTUNIDAD-->
+
+                <LinearLayout
+                    android:id="@+id/layout_descartar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="16dp"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <!--<TextView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:paddingLeft="50dp"-->
+                        <!--style="@style/TextViewFormulario"-->
+                        <!--android:text="@string/citas_estatus_obra"/>-->
+
+                    <!--<LinearLayout-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:paddingLeft="50dp">-->
+
+                        <!--&lt;!&ndash;<Spinner&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:id="@+id/sp_estatus_obra"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_marginTop="16dp"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                            <!--&lt;!&ndash;android:layout_height="wrap_content">&ndash;&gt;-->
+
+                        <!--&lt;!&ndash;</Spinner>&ndash;&gt;-->
+
+                    <!--</LinearLayout>-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50dp">
+
+                        <TextView
+                            style="@style/TextViewFormulario"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/citas_comentarios" />
+
+                        <!--<TextView-->
+                            <!--android:textColor="@color/colorRojo"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="@string/citas_obligatorio" />-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50dp"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/etComentariosDescartar"
+                            style="@style/HintEditTextFormulario"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:hint="@string/citas_breve"
+                            android:singleLine="true" />
+
+                        <Button
+                            android:id="@+id/btn_descartar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            style="@style/BotonAzulFormulario"
+                            android:text="@string/citas_dialog_confirmar"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/shadow" />
+    </RelativeLayout>
+</LinearLayout>

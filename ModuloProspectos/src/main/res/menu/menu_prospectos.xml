@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_prospectos_buscar"
+        android:orderInCategory="1"
+        android:title="@string/prospectos_menu_buscar"
+        android:icon="@drawable/action_search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_prospectos_status"
+        android:orderInCategory="2"
+        android:title="@string/prospectos_menu_status"
+        android:icon="@drawable/action_status"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_prospectos_nuevo"
+        android:orderInCategory="3"
+        android:title="@string/prospectos_menu_nuevo"
+        android:icon="@drawable/action_new_prospect"
+        app:showAsAction="always" />
+</menu>

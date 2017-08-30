@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#002A64</color>
+    <!--<color name="colorPrimaryDark">#77b200</color>-->
+    <color name="colorPrimaryDark">#515150</color>
+    <color name="colorAccent">#002a64</color>
+
+    <color name="colorNegro">#000000</color>
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="colorAzul">#002A64</color>
+    <color name="colorAzulElectrico">#004AB1</color>
+    <color name="colorAzulElectricoAlpha">#7F004AB1</color>
+    <color name="colorRojo">#E61D1D</color>
+    <color name="colorGris">#D6D2D2</color>
+    <color name="colorGrisClaro">#FAFAFA</color>
+    <color name="colorGrisOscuro">#6D6F72</color>
+    <color name="colorGrisBorde">#CECECE</color>
+    <color name="colorGrisCapaFondo">#80000000</color>
+
+    <!-- Modal con Clasificación de Prospectos -->
+    <color name="color_modal_rojo">#FF1D25</color>
+    <color name="color_modal_naranja">#FF6B0F</color>
+    <color name="color_modal_amarillo">#FFA700</color>
+    <color name="color_modal_verde_claro">#CABB00</color>
+    <color name="color_modal_verde">#7CAF00</color>
+
+    <!-- Colores Tipo de Venta -->
+    <color name="color_actividades_ventas">#e46c0a</color>
+    <color name="color_actividades_adminitrativas_ventas">#7caf00</color>
+    <color name="color_actividades_administrativas">#808080</color>
+    <color name="color_status_prospecto">#e32333</color>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_row"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:background="@color/colorBlanco"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_busqueda_nombre"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:gravity="center_vertical"
+            android:text="Nextlalpan - Varon Metta"
+            android:textSize="16dp"
+            android:textColor="@color/colorAzul"
+            android:textAppearance="@style/TextAppearance.FontLight"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/btn_options"/>
+
+    </LinearLayout>
+</FrameLayout>

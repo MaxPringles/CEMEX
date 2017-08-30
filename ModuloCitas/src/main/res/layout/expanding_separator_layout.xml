@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_separator"
+    android:visibility="gone">
+    <!-- Vista necesaria para que el ExpandingListView considere el ancho total,
+     de otro modo no lo considera (funcionamiento de la librería) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAzul"/>
+    <TextView
+        android:id="@+id/txt_separator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="50dp"
+        android:gravity="center_vertical"
+        android:background="@color/colorAzul"
+        android:textColor="@color/colorBlanco"
+        android:text="HOLA MUNDO"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanco">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/lvServicios"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_above="@+id/layoutBotones"
+        android:layout_alignParentTop="true"/>
+
+    <LinearLayout
+        android:id="@+id/layoutBotones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:divider="@drawable/nav_custom_divider"
+        android:showDividers="middle">
+        <Button
+            android:id="@+id/btnCancelarServicios"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_cancelar"
+            style="@style/BotonAzulFormulario"/>
+
+        <Button
+            android:id="@+id/btnGuardarServicios"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_guardar"
+            style="@style/BotonAzulFormulario"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

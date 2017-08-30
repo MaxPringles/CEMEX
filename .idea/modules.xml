@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CEMEX4.iml" filepath="$PROJECT_DIR$/CEMEX4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuloCitas/ModuloCitas.iml" filepath="$PROJECT_DIR$/ModuloCitas/ModuloCitas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuloInicio/ModuloInicio.iml" filepath="$PROJECT_DIR$/ModuloInicio/ModuloInicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuloPlanSemanal/ModuloPlanSemanal.iml" filepath="$PROJECT_DIR$/ModuloPlanSemanal/ModuloPlanSemanal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuloProspectos/ModuloProspectos.iml" filepath="$PROJECT_DIR$/ModuloProspectos/ModuloProspectos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuloRealm/ModuloRealm.iml" filepath="$PROJECT_DIR$/ModuloRealm/ModuloRealm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aFileChooser/aFileChooser.iml" filepath="$PROJECT_DIR$/aFileChooser/aFileChooser.iml" />
+    </modules>
+  </component>
+</project>

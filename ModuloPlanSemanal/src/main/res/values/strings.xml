@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">ModuloPlanSemanal</string>
+
+    <!-- PLAN SEMANAL PRINCIPAL -->
+    <string name="prospectos_id_vendedor_asignado">idVendedorAsignado</string>
+    <string name="citas_prospecto_fail">No es posible agendar la cita. Favor de intentar más tarde</string>
+
+    <!-- TOOLBAR PLAN SEMANAL -->
+    <string name="plan_menu_calendar">Mostrar Calendario</string>
+
+    <!-- PLAN SEMANAL SELECCIONAR TIPO ACTIVIDAD -->
+    <string name="plan_seleccionar_actividad">Selecciona un tipo de Actividad</string>
+    <string name="plan_tipo_venta">Venta</string>
+    <string name="plan_tipo_administrativas_venta">Administrativas de Venta</string>
+    <string name="plan_tipo_administrativas">Administrativas</string>
+
+    <string name="plan_tipo_administrativas_venta_title">Actividades Administrativas de Venta</string>
+    <string name="plan_tipo_administrativas_title">Actividades Administrativas</string>
+
+    <string name="plan_titulo">Plan Semanal</string>
+    <string name="plan_titulo_filtros">Filtros para selección de prospecto</string>
+    <string name="formulario_obligatorio"> *</string>
+    <string name="plan_tipo_prospecto">Tipo de Prospecto</string>
+    <string name="plan_subsegmento">Subsegmento</string>
+    <string name="plan_status">Status</string>
+    <string name="plan_tipo_actividad">Actividad de Venta</string>
+    <string name="no_connection_error_plan">Verificar conexión a internet.</string>
+    <string name="plan_error_catalogos">Hubo un problema al tratar de cargar los catálogos. Favor de intentar nuevamente.</string>
+    <string name="plan_error_calendario">Hubo un problema al tratar de cargar el Plan Semanal. Favor de intentar nuevamente.</string>
+    <string name="plan_error_busqueda">La búsqueda no ha arrojado resultados. Favor de intentar nuevamente</string>
+    <string name="btn_cancelar">CANCELAR</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="btn_siguiente">SIGUIENTE</string>
+    <string name="btn_agendar">AGENDAR</string>
+    <string name="prospectos_cargar_fail">No se lograron obtener los prospectos. Se muestran aquellos almacenados en el dispositivo</string>
+    <string name="plan_prospecto_finalizado">Prospecto finalizado</string>
+    <string name="plan_prospecto_descartado">Prospecto descartado</string>
+
+    <!-- PANTALLA CALENDARIO -->
+    <string name="plan_calendar_fecha_atrasada">La fecha elegida debe ser mayor o igual a la fecha actual.</string>
+    <string name="plan_calendar_fecha_fail">Ha ocurrido un error al momento de elegir la fecha de la cita. Favor de intentar más tarde.</string>
+    <string name="plan_calendar_hora_atrasada">La hora elegida debe ser mayor o igual a la hora actual.</string>
+    <string name="plan_calendar_hora_minima">La hora de fin debe tener al menos 15min. de diferencia con hora inicial</string>
+
+    <!-- PANTALLA DE TIMEPICKER -->
+    <string name="plan_time_picker_title_inicio">(hora inicio)</string>
+    <string name="plan_time_picker_title_fin">(hora fin)</string>
+    <string name="plan_time_picker_success">La cita se ha dado de alta exitosamente</string>
+    <string name="plan_time_picker_fail">Ha ocurrido un error al momento de dar de alta la cita. Favor de intentar nuevamente</string>
+    <string name="plan_time_picker_traslape_title">Conflicto con evento existente</string>
+    <string name="plan_time_picker_fin_mayor_inicio_title">Conflicto con horarios</string>
+    <string name="plan_time_picker_fin_15_min">Tiempo mínimo de cita</string>
+    <string name="plan_time_picker_traslape_message">Lo sentimos. Ya existe un evento programado en este horario</string>
+    <string name="plan_time_picker_aceptar">Aceptar</string>
+    <string name="actividad_alta_success">La cita se ha dado de alta exitosamente</string>
+    <string name="actividad_alta_fail">Ha ocurrido un error al momento de dar de alta la cita. Favor de intentar nuevamente</string>
+    <string name="actividad_alta_offline">La cita se dará de alta cuando tengas conexión a internet</string>
+    <string name="citas_dialog_cancelar">CANCELAR</string>
+    <string name="citas_dialog_confirmar">CONFIRMAR</string>
+    <string name="dialog_alert_edittext_comentario">Escribir Comentarios</string>
+
+    <!-- STRINGS DE NOMBRES DE LAS DISTINTAS ACTIVIDADES -->
+    <string name="actividades_contactar_nuevo_prospecto">Contactar Nuevo Prospecto</string>
+    <string name="actividades_contactar_cliente">Contactar Cliente</string>
+    <string name="actividades_visitar_prospecto">Visitar Prospecto</string>
+    <string name="actividades_recabar_informacion">Recabar Información</string>
+    <string name="actividades_calificar_oportunidad">Calificar Oportunidad</string>
+    <string name="actividades_propuesta_valor">Preparar Presentación de Propuesta de Valor</string>
+    <string name="actividades_descartar_oportunidad">Descartar oportunidad</string>
+    <string name="actividades_presentar_propuesta">Presentar Propuesta</string>
+    <string name="actividades_recibir_propuesta">Recibir Propuesta</string>
+    <string name="actividades_negociar_propuesta">Negociar/Ajustar Propuesta</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_row"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/colorBlanco"
+        android:orientation="horizontal">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="2"-->
+            <!--android:orientation="horizontal">-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:paddingBottom="5dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_prospecto"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:scaleType="centerCrop"
+                android:layout_margin="10dp"
+                android:src="@drawable/avatar_prospecto"/>
+            <ImageView
+                android:id="@+id/img_icono"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="0.7"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_add_photo"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:orientation="vertical"
+                android:paddingRight="16dp">
+
+                <TextView
+                    android:id="@+id/txt_clasificacion_prospecto"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:text="Nuevo Prospecto"
+                    android:textColor="@color/colorGrisOscuro"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_nombre_prospecto"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Nextlalpan - Varon Metta"
+                    android:maxLines="2"
+                    android:textAppearance="@style/TextAppearance.FontLight"
+                    android:textColor="@color/colorAzul"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txt_tarea_prospecto"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="Preparar Propuesta de Valor"
+                    android:textColor="@color/colorAzulElectrico"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    <!--</LinearLayout>-->
+</FrameLayout>

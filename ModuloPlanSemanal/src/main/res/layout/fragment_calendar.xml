@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/barlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorBlanco"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:theme="@style/ToolBarStyle" />
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        xmlns:agendaCalendar="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <com.github.tibolte.agendacalendarview.AgendaCalendarView
+            android:id="@+id/agenda_calendar_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            agendaCalendar:agendaCurrentDayTextColor="@color/colorAzul"
+            agendaCalendar:calendarColor="@android:color/white"
+            agendaCalendar:calendarCurrentDayTextColor="@color/calendar_text_current_day"
+            agendaCalendar:calendarDayTextColor="@color/colorAzul"
+            agendaCalendar:calendarHeaderColor="@color/colorAzulElectrico"
+            agendaCalendar:calendarPastDayTextColor="@android:color/darker_gray"
+            agendaCalendar:fabColor="@color/colorGrisOscuro"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:visibility="gone" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
+

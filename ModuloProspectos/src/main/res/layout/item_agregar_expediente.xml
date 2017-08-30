@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:layout_gravity="center_vertical"
+            android:button="@drawable/custom_checkbox_agregar"
+            android:enabled="false"
+            android:checked="true"
+            />
+        <TextView
+            android:id="@+id/txt_nombre_agregar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.5"
+            android:text="Nombre del Prospecto 01"
+            android:textSize="16sp"
+            android:textColor="@color/colorAzul"
+            android:minLines="2"
+            android:maxLines="2"
+            android:textAppearance="@style/TextAppearance.FontLight"
+            android:gravity="center_vertical"/>
+    </LinearLayout
+        >
+</LinearLayout>

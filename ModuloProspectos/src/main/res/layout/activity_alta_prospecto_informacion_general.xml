@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorBlanco"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <!--CLIENTE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_cliente" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/sp_cliente"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+
+                    <EditText
+                        android:id="@+id/etCliente"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:layout_marginTop="16dp"
+                        android:hint="@string/formulario_cliente"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--OBRA-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obra" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/sp_obra"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+
+                    <EditText
+                        android:id="@+id/etObra"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:layout_marginTop="16dp"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_obra"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--ESTATUS DE OBRA-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_estatus_obra" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerEstatusObra"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/colorAzul"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="16dp"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            </LinearLayout>
+
+            <!--SUBSEGMENTO-->
+
+            <LinearLayout
+                android:id="@+id/layout_subsegmento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_subsegmento" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerSubsegmento"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/colorAzul"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="16dp"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            </LinearLayout>
+
+
+            <!--TIPO DE PROYECTO-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_tipo_prospecto" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerTipoProspecto"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/colorAzul"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="16dp"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            </LinearLayout>
+
+            <!--OFERTA INTEGRAL-->
+
+            <LinearLayout
+                android:id="@+id/layout_oferta_integral_nuevo_prospecto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_oferta_integral" />
+                </LinearLayout>
+
+                <RadioGroup
+                    android:id="@+id/radioOfertaIntegral"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp">
+
+                    <RadioButton
+                        android:id="@+id/radioSi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_si"
+                        android:checked="true"
+                        android:layout_marginTop="18dp"
+                        android:paddingLeft="10dp"/>
+
+                    <RadioButton
+                        android:id="@+id/radioNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_no"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="18dp"
+                        android:paddingLeft="10dp"/>
+
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/btn_seleccionar_productos_servicios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp"
+                android:paddingBottom="16dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="8"
+                    android:text="@string/citas_seleccionar_productos_servicios"
+                    android:textColor="@color/colorAzul" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:foregroundGravity="center_vertical"
+                    android:scaleType="fitEnd"
+                    android:src="@drawable/btn_options" />
+            </LinearLayout>
+
+
+
+            <!--CAMPAÑA-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_campana" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerCampania"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/colorAzul"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="16dp"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+
+            </LinearLayout>
+
+            <!--COMENTARIOS-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_comentarios" />
+
+                    <!--<TextView-->
+                        <!--android:textColor="@color/colorRojo"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/formulario_obligatorio" />-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etComentariosProspecto"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:maxLength="100"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_hint_comentario" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--RAZÓN SOCIAL-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_razon_social" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etRazonSocial"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_razon_social" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--RFC-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_rfc" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etRFC"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapCharacters"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_hint_rfc"
+                        android:maxLength="13" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--TELÉFONO-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_pagina_web" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etPaginaWeb"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_hint_pagina_web"
+                        android:inputType="text" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--CALLE-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_calle" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etCalle"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_calle" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--NÚMERO-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_numero" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etNumero"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_hint_numero"
+                        android:inputType="number"
+                        android:maxLength="5" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--NÚMERO INTERIOR-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_numero_interior" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etNumeroInterior"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_hint_numero"
+                        android:inputType="textCapWords"
+                        android:maxLength="5" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--COLONIA-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_colonia" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etColonia"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_colonia" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--CÓDIGO POSTAL-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_codigo_postal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etCodigoPostal"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_hint_codigo_postal"
+                        android:inputType="number"
+                        android:maxLength="5" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--ESTADO-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_estado" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerEstado"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/colorAzul"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="16dp"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            </LinearLayout>
+
+            <!--MUNICIPIO-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_municipio" />
+
+                    <TextView
+                        android:textColor="@color/colorRojo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_obligatorio" />
+                </LinearLayout>
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/spinnerMunicipio"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/colorAzul"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="16dp"
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            </LinearLayout>
+
+            <!--COMENTARIOS-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_comentarios" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="46dp"
+                    android:paddingRight="16dp">
+
+                    <EditText
+                        android:id="@+id/etComentariosDireccion"
+                        style="@style/HintEditTextFormulario"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapSentences"
+                        android:maxLength="100"
+                        android:singleLine="true"
+                        android:hint="@string/formulario_hint_comentario" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--TOMAR FOTO DE PROSPECTO-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="16dp">
+
+                    <TextView
+                        style="@style/TextViewFormulario"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/formulario_tomar_fotografia" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="16dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp">
+
+                    <ImageButton
+                        android:id="@+id/btnFoto"
+                        android:background="@color/colorBlanco"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:adjustViewBounds="true"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/btn_foto_prospecto"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--BOTONES CANCELAR/GUARDAR-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@drawable/nav_custom_divider"
+            android:showDividers="middle">
+
+            <Button
+                android:id="@+id/btnCancelarInformacionGeneral"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_cancelar"
+                style="@style/BotonAzulFormulario"/>
+
+            <Button
+                android:id="@+id/btnGuardarInformacionGeneral"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_guardar"
+                style="@style/BotonAzulFormulario"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

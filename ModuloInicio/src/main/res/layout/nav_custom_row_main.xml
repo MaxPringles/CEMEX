@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="?android:selectableItemBackground"
+    android:id="@+id/linear_layout_lista">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/img_imagen_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/list_inicio"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt_nombre_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:text="Texto Item"
+            android:textSize="18sp"
+            android:textColor="@color/colorAzul"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_notificacion_item"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/notificacion_circulo"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_alignParentLeft="true"
+                android:text="5"
+                android:textStyle="bold"
+                android:textColor="@color/colorBlanco"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

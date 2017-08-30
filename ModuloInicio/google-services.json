@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "210520858223",
+    "firebase_url": "https://cemex-96ac3.firebaseio.com",
+    "project_id": "cemex-96ac3",
+    "storage_bucket": "cemex-96ac3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210520858223:android:cde9e10074bae18a",
+        "android_client_info": {
+          "package_name": "com.telstock.tmanager.cemex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210520858223-j9crm9676v1ke2sd722somsssp5f8de2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.telstock.tmanager.cemex",
+            "certificate_hash": "F1CDC8499CFD80E94E127584855D656682168DC2"
+          }
+        },
+        {
+          "client_id": "210520858223-bqutks1k1qta0dra6fvd0fsta02v3qhd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz16wd1k7DbdU2s1udbK7V_aEkc5pHLQg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210520858223-bqutks1k1qta0dra6fvd0fsta02v3qhd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="BotonVerde">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!-- Fuentes de Texto -->
+    <!-- Fuente Bold -->
+    <style name="TextAppearance.FontBold" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Bold.ttf</item>
+    </style>
+    <!-- Fuente Book -->
+    <style name="TextAppearance.FontBook" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Book.ttf</item>
+    </style>
+    <!-- Fuente Light -->
+    <style name="TextAppearance.FontLight" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Light.ttf</item>
+    </style>
+    <!-- Fuente Regular -->
+    <style name="TextAppearance.FontRegular" parent="android:TextAppearance">
+        <item name="fontPath">fonts/Regular.ttf</item>
+    </style>
+
+    <!-- ToolBar Fragments -->
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/colorAzul</item>
+        <item name="android:textColorSecondary">@color/colorAzul</item>
+        <item name="actionMenuTextColor">@color/colorAzul</item>
+    </style>
+
+    <!--Botones opciones para alta de prospecto-->
+    <style name="BotonOpcionesFormulario">
+        <item name="android:background">@color/colorBlanco</item>
+        <item name="android:textColor">@color/colorAzul</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:drawableEnd">@drawable/btn_options</item>
+        <item name="android:drawableRight">@drawable/btn_options</item>
+    </style>
+
+    <!--Botones azules para alta de prospecto-->
+    <style name="BotonAzulFormulario">
+        <item name="android:background">@color/colorAzulElectrico</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+    </style>
+
+    <style name="TextViewFormulario">
+        <item name="android:textColor">@color/colorAzul</item>
+    </style>
+
+    <style name="HintEditTextFormulario">
+        <item name="android:textAppearance">@style/TextAppearance.FontLight</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!-- Tema usado para dar animación a la Modal de Prospectos -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <!-- Customización de Spinners -->
+    <style name="SpinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+        <item name="android:textAppearance">@style/TextAppearance.FontLight</item>
+    </style>
+
+    <!-- FloatinActionButton Descargas -->
+    <style name="MenuButtonsSmall">
+        <item name="fab_size">mini</item>
+        <item name="fab_colorNormal">@color/colorAzulElectrico</item>
+        <item name="fab_colorPressed">#017fb1</item>
+        <item name="fab_colorRipple">#005678</item>
+    </style>
+
+    <style name="MenuLabelsStyle">
+        <item name="android:background">@color/colorBlanco</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

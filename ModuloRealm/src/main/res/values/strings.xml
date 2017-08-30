@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">RealmDB</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- FRAGMENTO MAPA -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBz16wd1k7DbdU2s1udbK7V_aEkc5pHLQg</string>
+    <string name="mapa_ubicacion_fail">No se tienen los datos de ubicación para este prospecto, se muestra la ubicación actual</string>
+    <string name="mapa_cerrar">CERRAR</string>
+    <string name="mapa_aceptar">ACEPTAR</string>
+
+    <!-- ALERT DIALOG MODAL -->
+    <string name="dialog_alert_title">Conflicto con evento existente</string>
+    <string name="dialog_alert_message">Lo sentimos. Ya existe un evento programado en este horario</string>
+    <string name="dialog_alert_aceptar">Aceptar</string>
+    <string name="dialog_alert_cancelar">Cancelar</string>
+
+    <!-- ALERT DIALOG NOMBRE ARCHIVO -->
+    <string name="dialog_alert_edittext_title">Nombre del Archivo</string>
+    <string name="dialog_alert_edittext_fail">Favor de escribir el nombre del archivo</string>
+
+    <!-- STRINGS PARA PRODUCTOS -->
+    <string name="citas_obligatorio">*</string>
+    <string name="productos_fecha_inicio_obra">Fecha de Inicio de Obra</string>
+    <string name="productos_fecha_inicio_obra_hint">12 / 12 / 2016</string>
+    <string name="productos_duracion_meses">Duración (meses)</string>
+    <string name="productos_duracion_meses_hint">Duración (meses)</string>
+    <string name="productos_meses_restantes">Meses restantes</string>
+    <string name="productos_meses_restantes_hint">Meses restantes</string>
+    <string name="productos_volumen_total">Volumen total</string>
+    <string name="productos_volumen_total_hint">Volumen total</string>
+    <string name="productos_volumen_restante">Volumen restante</string>
+    <string name="productos_volumen_restante_hint">Volumen restante</string>
+
+    <string name="productos_semaforo">Semáforo</string>
+    <string name="productos_obra">Obra</string>
+    <string name="productos_motivo_exclusion">Motivo de exclusión</string>
+    <string name="productos_estatus_obra">Estatus de obra</string>
+    <string name="productos_tipo_obra">Tipo de obra</string>
+
+    <string name="productos_volumen_proximos_meses">Volumen para los próximos 6 meses</string>
+    <string name="productos_volumen_proximos_meses_hint">Volumen para los próximos 6 meses</string>
+
+    <string name="productos_competidor">Competidor</string>
+    <string name="productos_oportunidad_venta">Oportunidad de venta</string>
+
+    <string name="productos_numero_obra">Número de obra</string>
+    <string name="productos_numero_obra_hint">1506</string>
+    <string name="productos_razon_perdida_descartada">¿Por qué fue Perdida / Descartada?</string>
+    <string name="productos_razon_perdida_descartada_hint">¿Por qué fue Perdida / Descartada?</string>
+
+    <string name="formulario_spinners_default">-- Selecciona --</string>
+
+    <string name="productos_fecha_inicio_obra_empty">Favor de llenar el campo Fecha de Inicio de Obra</string>
+    <string name="productos_duracion_meses_empty">Favor de llenar el campo Duración (meses)</string>
+    <string name="productos_meses_restantes_empty">Favor de llenar el campo Meses restantes</string>
+    <string name="productos_volumen_total_empty">Favor de llenar el campo Volumen total</string>
+    <string name="productos_volumen_restante_empty">Favor de llenar el campo Volumen restante</string>
+    <string name="productos_volumen_proximos_meses_empty">Favor de llenar el campo Volumen para los próximos 6 meses</string>
+    <string name="productos_numero_obra_empty">Favor de llenar el campo Número de obra</string>
+    <string name="productos_razon_perdida_descartada_empty">Favor de llenar el campo ¿Por qué fue Perdida / Descartada?</string>
+    <string name="productos_semaforo_empty">Favor de seleccionar Semáforo</string>
+    <string name="productos_obra_empty">Favor de seleccionar Obra</string>
+    <string name="productos_tipo_obra_empty">Favor de seleccionar Tipo de obra</string>
+    <string name="productos_motivos_exclusion_empty">Favor de seleccionar Motivo de exclusión</string>
+    <string name="productos_estatus_obra_empty">Favor de seleccionar Estatus de obra</string>
+    <string name="productos_competidor_empty">Favor de seleciconar Competidor</string>
+    <string name="productos_oportunidad_venta_empty">Favor de seleccionar Oportunidad de Venta</string>
+    <string name="productos_error_duracion">La duración de la obra no puede ser menor a los meses restantes</string>
+
+    <!-- ACTIVIDAD OBRA DETALLE -->
+    <string name="obra_titulo">Información Obra</string>
+    <string name="btn_cancelar">CANCELAR</string>
+    <string name="btn_guardar">GUARDAR</string>
+    <string name="obra_alta_success">La información de la obra se actualizó correctamente</string>
+    <string name="obra_alta_fail">La información de la obra no se ha podido actualizar. Favor de intentar más tarde</string>
+    <string name="obra_alta_offline">La información de la obra se actualizará cuando tengas conexión a internet</string>
+
+    <!-- PANTALLA NOTIFICACIONES -->
+    <string name="notificaciones_title">Notificaciones</string>
+    <string name="notificaciones_cargar_fail">No se lograron actualizar las notificaciones. Se muestran aquellas almacenadas en el dispositivo</string>
+    <string name="notificaciones_empty">No cuentas con ninguna notificación</string>
+
+    <!-- TOKEN EXPIRADO -->
+    <string name="token_expirado_title">La sesión ha expirado</string>
+    <string name="token_expirado_message">El tiempo de sesión ha terminado</string>
+    <string name="token_expirado_aceptar">ACEPTAR</string>
+
+</resources>
